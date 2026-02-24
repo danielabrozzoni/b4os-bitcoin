@@ -389,6 +389,7 @@ BASE_SCRIPTS = [
     'feature_hello_world.py',
     'wallet_rpc_basics.py',
     'feature_prune_debug_log.py'
+    'feature_miniwallet.py'
     # Don't append tests at the end to avoid merge conflicts
     # Put them in a random line within the section that fits their approximate run-time
 ]
