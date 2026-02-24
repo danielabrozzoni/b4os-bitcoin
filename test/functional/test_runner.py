@@ -348,6 +348,8 @@ BASE_SCRIPTS = [
     'p2p_ping.py',
     'p2p_tx_privacy.py',
     'rpc_getdescriptoractivity.py',
+    'feature_hello_world.py',
+    'feature_wallet_rpc_basics.py',
     'rpc_scanblocks.py',
     'tool_bitcoin.py',
     'p2p_sendtxrcncl.py',
