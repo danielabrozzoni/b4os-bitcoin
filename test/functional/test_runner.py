@@ -382,6 +382,7 @@ BASE_SCRIPTS = [
     'feature_dirsymlinks.py',
     'feature_b4os.py',
     'feature_help.py',
+    'wallet_rpc_basics.py',
     'feature_framework_startup_failures.py',
     'feature_shutdown.py',
     'wallet_migration.py',
