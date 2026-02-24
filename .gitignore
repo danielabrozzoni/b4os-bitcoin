@@ -27,3 +27,6 @@ target/
 /guix-build-*
 
 /ci/scratch/
+
+# exercises
+/_exercises
