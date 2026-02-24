@@ -383,6 +383,7 @@ BASE_SCRIPTS = [
     'feature_b4os.py',
     'feature_help.py',
     'feature_miniwallet.py',
+    'p2p_ping_pong.py',
     'feature_prune_debug_log.py',
     'wallet_rpc_basics.py',
     'feature_framework_startup_failures.py',
