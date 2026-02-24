@@ -379,6 +379,7 @@ BASE_SCRIPTS = [
     'tool_rpcauth.py',
     'p2p_handshake.py',
     'p2p_handshake.py --v2transport',
+    'p2p_invalid_submission.py',
     'feature_dirsymlinks.py',
     'feature_b4os.py',
     'feature_help.py',
