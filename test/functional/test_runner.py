@@ -252,6 +252,7 @@ BASE_SCRIPTS = [
     'p2p_v2_misbehaving.py',
     'example_test.py',
     'feature_hello_world.py',
+    'wallet_rpc_basics.py',
     'mempool_truc.py',
     'wallet_multisig_descriptor_psbt.py',
     'wallet_miniscript_decaying_multisig_descriptor_psbt.py',
