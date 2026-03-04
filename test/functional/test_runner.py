@@ -316,6 +316,7 @@ BASE_SCRIPTS = [
     'feature_port.py',
     'feature_bind_port_externalip.py',
     'wallet_create_tx.py',
+    'wallet_rpc_basics.py',
     'wallet_send.py',
     'wallet_sendall.py',
     'wallet_sendmany.py',
