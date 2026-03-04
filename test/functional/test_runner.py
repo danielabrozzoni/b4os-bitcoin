@@ -238,6 +238,7 @@ BASE_SCRIPTS = [
     'p2p_nobloomfilter_messages.py',
     TEST_FRAMEWORK_UNIT_TESTS,
     'feature_prune_debug_log.py',
+    'feature_miniwallet.py',
     'p2p_filter.py',
     'rpc_setban.py --v1transport',
     'rpc_setban.py --v2transport',
