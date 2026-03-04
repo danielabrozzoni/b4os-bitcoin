@@ -22,8 +22,12 @@ class WalletRPCBasicsTest(BitcoinTestFramework):
         self.nodes[1].createwallet("node1_wallet")
         node1_wallet = self.nodes[1].get_wallet_rpc("node1_wallet")
 
-        # Step 3: Mine 101 blocks to node0 (1 mature coinbase = 50 BTC)
-        self.generate(self.nodes[0], 101)
+        # Step 3: Mine 102 blocks to node0_wallet.
+        # The framework pre-mines 200 blocks, so we're past the first halving
+        # (regtest halving at 150). Each coinbase is worth 25 BTC, so we need
+        # 2 mature coinbases (102 blocks = 2 mature + 100 immature) to reach 50 BTC.
+        addr0 = node0_wallet.getnewaddress()
+        self.generatetoaddress(self.nodes[0], 102, addr0)
 
         # Step 4: Check node0 balance is 50 BTC
         assert_equal(node0_wallet.getbalance(), Decimal("50.00000000"))
